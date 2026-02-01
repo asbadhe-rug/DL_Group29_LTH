@@ -80,7 +80,7 @@ def run_experiment(m_name, m_class, with_dropout, experiment_type, iterations=15
         early_stop_epoch = epochs #early stop when reaching certain epoch
         best_state_dict = None  # Save weights at early stop
         
-        # 3. Training Loop
+        # Training Loop
         print(f"\n>>> Running: {m_name} | {experiment_type} | Round {round_idx} (Target: {epochs} Epochs)")
         
         for epoch in range(1, epochs + 1):
