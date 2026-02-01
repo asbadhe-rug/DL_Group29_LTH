@@ -1,16 +1,16 @@
-# 🎟️ Lottery Ticket Hypothesis Reproduction
+# Lottery ticket hypothesis reproduction
 ### Group 29: Ashmit, Rigel, Diego
 
-This repository contains the stable pipeline for reproducing the **Lottery Ticket Hypothesis** (Frankle & Carbin, 2019). We specifically target the `Conv2` architecture on the **CIFAR-10** dataset.
+This repository has the pipeline for the **Lottery Ticket Hypothesis** (Frankle & Carbin, 2019). We specifically model the convolutional architectures and use them on the **CIFAR-10** dataset.
 
-## 🛠️ Setup Instructions
+## Setup instructions
 
-1. **Create and Activate Virtual Environment**:
+1. **Create and activate virtual environment**:
    ```powershell
    python -m venv venv
    .\venv\Scripts\activate
 
-2. **Install Dependencies**:
+2. **Install dependencies**:
     ```powershell
    pip install -r requirements.txt
 
