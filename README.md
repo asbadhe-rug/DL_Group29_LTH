@@ -16,4 +16,4 @@ This repository has the pipeline for the **Lottery Ticket Hypothesis** (Frankle 
 
 4. **Run the experiment**
     ```powershell
-   python main.py
+   python run_experiment.py
